@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contenedor.css">
+    <title>Sistema de Inventario</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.img" alt="Logo de la empresa">  <!-- Aqui se agrega el logo del proyecto -->
+        </div>
+        <div class="Correo_electronico">
+            <i class="fas fa-user"></i> <!-- se usa para el encabezado de la pagina  -->
+            <span>Bryant@correo.com</span> 
+        </div>
+    </header>
+    <div class="contenedor">
+    
+        <nav class="lista">    <!-- Se usa para crear un menu lateral -->
+            <ul>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Proveedores</a></li>
+                <li><a href="#">Compras</a></li>
+                <li><a href="#">Salidas</a></li>
+                <li><a href="#">Producto</a></li>
+                <li><a href="#">Stock</a></li>
+            </ul>
+        </nav>
+        <div class="cajitas">
+            <div class="row">  <!-- esto hace que las cajas se muestras de manera horizontal -->
+                <div class="cajitas2">
+                    <h2>Clientes</h2>
+                </div>
+                <div class="cajitas2">
+                    <h2>Proveedores</h2>
+                </div>
+                <div class="cajitas2">
+                    <h2>Compras</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cajitas2">
+                    <h2>Salidas</h2>
+                </div>
+                <div class="cajitas2">
+                    <h2>Producto</h2>
+                </div>
+                <div class="cajitas2">
+                    <h2>Stock</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
